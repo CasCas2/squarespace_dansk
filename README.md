@@ -1,4 +1,5 @@
-# squarespace_dansk
+# Squarespace på dansk
+
 javascript der oversætter Squarespace dato og tekst til dansk
 
 Indsættes her --> /config/settings/advanced/injection --> FOOTER
