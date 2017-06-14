@@ -1,5 +1,5 @@
-<!-- C-System.dk script til at oversætte blog dato til dansk-->
-<script type="text/javascript">
+//<!-- C-System.dk script til at oversætte blog dato til dansk-->
+//<script type="text/javascript">
    // Danske måneder
    var month=new Array(12);
     month[0]="januar";      month[1]="februar";     month[2]="marts";
@@ -39,5 +39,5 @@
         ); 
      }); 
    });
- </script>
- <!-- END C-System.dk script til at oversætte blog dato til dansk  -->
+ //</script>
+ //<!-- END C-System.dk script til at oversætte blog dato til dansk  -->
