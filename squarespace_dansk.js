@@ -35,7 +35,16 @@
            const tdate = new Date(this.getAttribute('datetime'));
            this.setHTML(`${tdate.getDate()} ${month[tdate.getMonth()]} ${tdate.getFullYear()}`);
          }
-        ); 
+        );
+        // Oversætter Like og Likes kræver jquery
+          $('span').children().each(function () {
+          $(this).html($(this).html().split('Likes').join('Synes godt om'));
+        }
+        );
+          $('span').children().each(function () {
+          $(this).html($(this).html().split('Like').join('Synes godt om'));
+         }
+        );       
      }); 
    });
 
